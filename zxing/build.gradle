@@ -27,7 +27,7 @@ android {
     }
 
 }
-version = "3.2.2"
+version = "3.2.1"
 
 task makeJar(type: Copy) {
     def jarName = 'code-' + version + '.jar'
